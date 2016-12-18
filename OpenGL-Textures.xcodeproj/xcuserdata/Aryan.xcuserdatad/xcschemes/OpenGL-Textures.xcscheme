@@ -17,7 +17,7 @@
                BlueprintIdentifier = "925378741DFA24A00026847C"
                BuildableName = "OpenGLTutorial-1"
                BlueprintName = "OpenGLTutorial-1"
-               ReferencedContainer = "container:OpenGLTutorial-1.xcodeproj">
+               ReferencedContainer = "container:OpenGL-Textures.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "925378741DFA24A00026847C"
             BuildableName = "OpenGLTutorial-1"
             BlueprintName = "OpenGLTutorial-1"
-            ReferencedContainer = "container:OpenGLTutorial-1.xcodeproj">
+            ReferencedContainer = "container:OpenGL-Textures.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "925378741DFA24A00026847C"
             BuildableName = "OpenGLTutorial-1"
             BlueprintName = "OpenGLTutorial-1"
-            ReferencedContainer = "container:OpenGLTutorial-1.xcodeproj">
+            ReferencedContainer = "container:OpenGL-Textures.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "925378741DFA24A00026847C"
             BuildableName = "OpenGLTutorial-1"
             BlueprintName = "OpenGLTutorial-1"
-            ReferencedContainer = "container:OpenGLTutorial-1.xcodeproj">
+            ReferencedContainer = "container:OpenGL-Textures.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

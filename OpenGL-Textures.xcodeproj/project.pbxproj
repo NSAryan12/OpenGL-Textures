@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		925378791DFA24A00026847C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 925378781DFA24A00026847C /* main.cpp */; };
+		92ACF0C11DFB924C003CF3D5 /* resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = 92ACF0BF1DFB91F6003CF3D5 /* resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +21,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		92ACF0C01DFB9206003CF3D5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				92ACF0C11DFB924C003CF3D5 /* resources in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		925378751DFA24A00026847C /* OpenGLTutorial-1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OpenGLTutorial-1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		925378781DFA24A00026847C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		92ACF0BE1DFB8E7D003CF3D5 /* Shader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shader.h; sourceTree = "<group>"; };
+		92ACF0BF1DFB91F6003CF3D5 /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
+		92ACF1951DFC7CA1003CF3D5 /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,7 @@
 			children = (
 				925378771DFA24A00026847C /* OpenGLTutorial-1 */,
 				925378761DFA24A00026847C /* Products */,
+				9253787F1DFA24C50026847C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +72,19 @@
 		925378771DFA24A00026847C /* OpenGLTutorial-1 */ = {
 			isa = PBXGroup;
 			children = (
+				92ACF0BF1DFB91F6003CF3D5 /* resources */,
 				925378781DFA24A00026847C /* main.cpp */,
+				92ACF0BE1DFB8E7D003CF3D5 /* Shader.h */,
+				92ACF1951DFC7CA1003CF3D5 /* Camera.h */,
 			);
 			path = "OpenGLTutorial-1";
+			sourceTree = "<group>";
+		};
+		9253787F1DFA24C50026847C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,6 +97,7 @@
 				925378711DFA24A00026847C /* Sources */,
 				925378721DFA24A00026847C /* Frameworks */,
 				925378731DFA24A00026847C /* CopyFiles */,
+				92ACF0C01DFB9206003CF3D5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -98,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 925378701DFA24A00026847C /* Build configuration list for PBXProject "OpenGLTutorial-1" */;
+			buildConfigurationList = 925378701DFA24A00026847C /* Build configuration list for PBXProject "OpenGL-Textures" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,6 +244,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AFNEC75D99;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.0.0/lib,
+					/usr/local/Cellar/glfw3/3.2.1/lib,
+					/usr/local/Cellar/sdl2/2.0.4/lib,
+					/usr/local/Cellar/sfml/2.4.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -226,6 +260,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = AFNEC75D99;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.0.0/lib,
+					/usr/local/Cellar/glfw3/3.2.1/lib,
+					/usr/local/Cellar/sdl2/2.0.4/lib,
+					/usr/local/Cellar/sfml/2.4.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -233,7 +275,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		925378701DFA24A00026847C /* Build configuration list for PBXProject "OpenGLTutorial-1" */ = {
+		925378701DFA24A00026847C /* Build configuration list for PBXProject "OpenGL-Textures" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9253787A1DFA24A00026847C /* Debug */,
@@ -249,6 +291,7 @@
 				9253787E1DFA24A00026847C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
