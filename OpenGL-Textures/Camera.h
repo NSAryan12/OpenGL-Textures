@@ -1,6 +1,6 @@
 //
 //  Camera.h
-//  OpenGLTutorial-1
+//  OpenGL-Textures
 //
 //  Created by Aryan Kashyap on 10/12/2016.
 //  Copyright © 2016 Aryan Kashyap. All rights reserved.

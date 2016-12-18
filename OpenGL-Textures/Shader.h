@@ -1,3 +1,11 @@
+//
+//  Camera.h
+//  OpenGL-Textures
+//
+//  Created by Aryan Kashyap on 10/12/2016.
+//  Copyright © 2016 Aryan Kashyap. All rights reserved.
+//
+
 #ifndef SHADER_H
 #define SHADER_H
 
