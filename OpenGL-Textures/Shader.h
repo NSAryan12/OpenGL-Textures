@@ -1,5 +1,5 @@
 //
-//  Camera.h
+//  Shader.h
 //  OpenGL-Textures
 //
 //  Created by Aryan Kashyap on 10/12/2016.
